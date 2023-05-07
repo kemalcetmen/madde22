@@ -2,7 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['upload.wikimedia.org', 's3-alpha-sig.figma.com'],
+    domains: ['s3-alpha-sig.figma.com'],
   },
 }
 
