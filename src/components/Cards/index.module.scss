@@ -1,0 +1,21 @@
+.cardsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 74%;
+    margin: auto;
+    margin-top: 60px;
+}
+@media screen and (max-width: 1100px) {
+    .cardsContainer {
+        width: 344px;
+    }
+    
+}
+// .container {
+//     @apply bg-inherit p-0 flex gap-6 flex-wrap
+// }
+// .container li {
+//     @apply bg-inherit p-0 inline gap-6 flex-wrap;
+//     list-style-type: none;
+//  }

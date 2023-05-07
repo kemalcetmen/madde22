@@ -1,0 +1,64 @@
+{
+    "data": [
+        {
+            "id": "1sdfsdfmsödfs",
+            "name": "Yasemin Sakallıoğlu",
+            "location": "Maximum Uniq Hall",
+            "explanation": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+            "image": "https://s3-alpha-sig.figma.com/img/53a7/bebc/2548a9b67eef50835a48976e01363a25?Expires=1684108800&Signature=FbKGyBxUinSxdUi8dA-Vs6V6EVFxUPm2jKJqlkVDq-q~vjJYKtbegEsFIeI7dgXIyRxEYrR3514pzL26s8tNiQqMbNY5~L6lhSOCUZrrGe6RJE8~n-ULgQc5Vb1qfdCCc0L7mLeXIEStI1WLGxk6NrUVbK-1eQO6OkvyI4yU6z8~i8APcP8B1HNSDOJp5us~VQm5H1UmOTeMpoREfZ5PqQJfXAMsW9NjQO7kUBdAluYtiWWC5OlGoIXQqRGgN5MnOm5KWdZBxsb1zDypsKh5gWsfMhoZYBcL7pK33O0z3s73cIqTUP3uInxiW4U4Wy~RU0iSpO-cV49w1wKyA2GVyw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "date": 1694121300000,
+            "type": "sinema",
+            "inCalendar": false
+        },
+        {
+            "id": "2sdfsdfmsödfs",
+            "name": "Yasemin Sakallıoğlu",
+            "location": "Maximum Uniq Box",
+            "explanation": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+            "image": "https://s3-alpha-sig.figma.com/img/0985/4012/12e2defa15b974f859b632b3d981afec?Expires=1684108800&Signature=jEerp2nfsSnpo7e4fpozVZhxiSAxjqgcUUPZyOAP~Gtq5Ss~cNnCMKgZ~dz7q7TkkuFE-SzJ1cM4O~qAYYYUL5L4OGZEv-tIGeZ6MneIsMk8I4YW5vf8rYOGEfGUavwwfoX4EKh6DQ8dWnV4cnLjBRpB~NeQmC7eosfql7ZRTluoswx-2lGgZl6tbreAL8i197Q3qm~rmijL3dB5jc7MQgk-1fPAwMgbQODwitqZ8YY5ZSc8xvmvrssiD7MByDAF9ojHzitrloXcRiXeCswa~uCz-VHqJWVo0a0MO0nysHpYd9K~9Yx7vDAaURuA~0O7ANR4KG9zqNRmooEa6xhuzQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "date": 1694121300000,
+            "type": "tiyatro",
+            "inCalendar": false
+        },
+        {
+            "id": "3sdfsdfmsödfs",
+            "name": "Yasemin Sakallıoğlu",
+            "location": "Maximum Uniq Lounge",
+            "explanation": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+            "image": "https://s3-alpha-sig.figma.com/img/d6fd/5c6c/cb079a1620455c57fabe84cd46b5a76e?Expires=1684108800&Signature=FNLDS~f4oRtQQh27Pe9G6xvSTGt6sBFHK-OBR-VAEuG5Eznv33eRUxml7F2jx0tJYCKWY-HgrGWEb~G3Usb85awgUZF9oGPTbmR5kRJnFG4gSNlRuGed4twHj8u9DOpVRJY8FQcP3I7Z1yj22K9gapNgTmaB7kEaX4Um~6Ccj4MbBcx~Upnvj4FThscJ8Vzmy5m3~Ieic9PfesG90tU4JypUpu4JcKvD-D8j9-2Is9jCyJzG2GQM7bzjmftENVsTJWAoxAvW2ysODidoNTeY45kQvN9uR-q4FM35RnzBOyXzpvgh8w7GSepF0Sv-k37Ij-IfnzKpxGhgUu1GY8c4XQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "date": 1694121300000,
+            "type": "stand up",
+            "inCalendar": false
+        },
+        {
+            "id": "4sdfsdfmsödfs",
+            "name": "Yasemin Sakallıoğlu",
+            "location": "Maximum Uniq Açıkhava",
+            "explanation": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+            "image": "https://s3-alpha-sig.figma.com/img/53a7/bebc/2548a9b67eef50835a48976e01363a25?Expires=1684108800&Signature=FbKGyBxUinSxdUi8dA-Vs6V6EVFxUPm2jKJqlkVDq-q~vjJYKtbegEsFIeI7dgXIyRxEYrR3514pzL26s8tNiQqMbNY5~L6lhSOCUZrrGe6RJE8~n-ULgQc5Vb1qfdCCc0L7mLeXIEStI1WLGxk6NrUVbK-1eQO6OkvyI4yU6z8~i8APcP8B1HNSDOJp5us~VQm5H1UmOTeMpoREfZ5PqQJfXAMsW9NjQO7kUBdAluYtiWWC5OlGoIXQqRGgN5MnOm5KWdZBxsb1zDypsKh5gWsfMhoZYBcL7pK33O0z3s73cIqTUP3uInxiW4U4Wy~RU0iSpO-cV49w1wKyA2GVyw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "date": 1694121300000,
+            "type": "konser",
+            "inCalendar": false
+        },
+        {
+            "id": "5sdfsdfmsödfs",
+            "name": "Yasemin Sakallıoğlu",
+            "location": "Bahçe Fuaye",
+            "explanation": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+            "image": "https://s3-alpha-sig.figma.com/img/0985/4012/12e2defa15b974f859b632b3d981afec?Expires=1684108800&Signature=jEerp2nfsSnpo7e4fpozVZhxiSAxjqgcUUPZyOAP~Gtq5Ss~cNnCMKgZ~dz7q7TkkuFE-SzJ1cM4O~qAYYYUL5L4OGZEv-tIGeZ6MneIsMk8I4YW5vf8rYOGEfGUavwwfoX4EKh6DQ8dWnV4cnLjBRpB~NeQmC7eosfql7ZRTluoswx-2lGgZl6tbreAL8i197Q3qm~rmijL3dB5jc7MQgk-1fPAwMgbQODwitqZ8YY5ZSc8xvmvrssiD7MByDAF9ojHzitrloXcRiXeCswa~uCz-VHqJWVo0a0MO0nysHpYd9K~9Yx7vDAaURuA~0O7ANR4KG9zqNRmooEa6xhuzQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "date": 1694121300000,
+            "type": "çocuk",
+            "inCalendar": false
+        },
+        {
+            "id": "6sdfsdfmsödfs",
+            "name": "Yasemin Sakallıoğlu",
+            "location": "Maximum Uniq Hall",
+            "explanation": "1978 yılında ilk kez İstanbul Şehir Tiyatrolarında bu oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir",
+            "image": "https://s3-alpha-sig.figma.com/img/7624/cbe3/348d290c97cc8618d20e4fe5c15882f6?Expires=1684108800&Signature=GHXkDrhrBZeUjL41rn164nibUuURKOPr9oJkscPdxHiGxjRIhzn88UhkUE5PPEQ9HxcPkhT~zPuuftZ3HiUu1eYQBi-o5Jmku41N31Qtlq6TCLRdaPql69xthVTAidAuBmu-homJX~ZFQnXQ3OtABCvg8ZZlw81zlOYM203Rc4ym06BWungcnePB2ucTmwgIl4aZwuAJhj1sH0EwGgMNMLFxQMUNdxEcE1HxsmpAlHO-SL7SdrkkWlHZp86QG-ybEb6R8V~lqG7K9vJg3HRh3oFhZ2VAWOiTGlMyV6P5LV43zUEntN2uLillMayW5Vo0oz6iXIZlHrNfJCJwPieCJg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4",
+            "date": 1694121300000,
+            "type": "stand up",
+            "inCalendar": false
+        }
+    ]
+}
