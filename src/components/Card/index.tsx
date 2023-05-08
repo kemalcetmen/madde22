@@ -4,8 +4,6 @@ import styles from './index.module.scss'
 import Image from 'next/image'
 import Link from 'next/link'
 import colors from '@/datas/colors.js'
-import { format } from 'date-fns';
-import turkishLocale from 'date-fns/locale/tr';
 
 type Props = {
     event: Event,
@@ -13,17 +11,14 @@ type Props = {
 }
 const index = ({ event, changeLikedEvent }: Props) => {
     const thecolor = colors.filter(color => color.name === event.type)[0]?.color
-    const formattedDate = format(event.date, 'd MMMM EEEE', { locale: turkishLocale });
-    const formattedTime = format(event.date, 'HH:mm');
-    console.log(`${formattedDate} ${formattedTime}`);
-
 
     return (
         <div className={styles.cardContainer}>
             <div className={styles.imageBackground}>
                 <div className={styles.date}>
-                    {formattedDate} &nbsp; 
-                    {formattedTime}
+                    {
+                        event.date.day + ' ' + event.date.month + ' ' + event.date.dayName + ' ' + event.date.hour
+                    }
                 </div>
                 <div className={styles.image}>
                     <div className={styles.eventType} style={{ backgroundColor: `${thecolor}` }}>
@@ -52,16 +47,19 @@ const index = ({ event, changeLikedEvent }: Props) => {
                     {event.location}
                 </p>
                 <p className={styles.explanation}>
-                {event.explanation}
+                    {event.explanation}
                 </p>
             </div>
             <div className={styles.footer}>
-                <Link href="/">
+                {/* <Link href="/">
                     <div className={styles.buy}>
                         Bilet Al
                     </div>
-                </Link>
-                <div onClick={() => changeLikedEvent(event.id)}>
+                </Link> */}
+                <div className={styles.buy}>
+                    Bilet Al
+                </div>
+                <div onClick={() => changeLikedEvent(event.id)} className={styles.calender}>
                     {
                         !event.inCalendar
                             ?

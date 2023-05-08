@@ -35,11 +35,6 @@ const filteringSlice = createSlice({
         dateFilter: (state, action: PayloadAction<number>) => {
             if (state.date === action.payload) {
                 state.date = 0
-                // const index = state.date.indexOf(action.payload);
-                // if (index > -1) {
-                //     state.date.splice(index, 1);
-                // }
-
             } else {
                 state.date = action.payload
             }

@@ -4,7 +4,13 @@ export interface Event {
     "location": string,
     "explanation": string,
     "image": string,
-    "date": date,
+    "date": {
+        "day": string,
+        "month": string,
+        "year": string,
+        "hour": string,
+        "dayName": string
+    },
     "type": string,
     "inCalendar": boolean
 }
