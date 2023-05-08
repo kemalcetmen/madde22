@@ -53,7 +53,13 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  min-height: 100vh;
+  overflow: scroll;
 }
+main {
+  padding: 60px 0;
+}
+
 .ReactModalPortal>div {
     z-index: 10;
 }

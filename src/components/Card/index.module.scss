@@ -4,7 +4,6 @@
     border: 1px solid #DEDEDE;
     width: 100%;
     max-width: 1064px;
-    position: relative;
 
     .imageBackground {
         display: grid;
@@ -17,11 +16,12 @@
         margin-right: 250px;
 
         .date {
-            width: 32px;
+            width: 52px;
             height: 96px;
-            margin: 0 50px;
+            margin: 0 40px;
             color: #FF0D87;
             text-align: center;
+            align-items: center;
         }
         .image {
             height: 172px;
@@ -109,8 +109,6 @@
         }
         .calender {
             cursor: pointer;
-
-
             .add {
                 display: flex;
                 flex-direction: row;
@@ -131,7 +129,6 @@
         height: 410px;
 
         .imageBackground {
-            display: grid;
             grid-template-columns: none;
             grid-template-rows: repeat(2, 1fr);
             align-items: auto;
@@ -146,9 +143,21 @@
                 margin: 10px 0;
                 color: #fff;
                 display: flex;
-                text-align: center;
                 justify-content: center;
-                align-items: center;
+                // text-align: end;
+                font-family: 'Acme';
+                line-height: 44px;
+
+                .day {
+                    font-size: 36px;
+                }
+                .month {
+                    font-size: 24px;
+                }
+                .hour {
+                    color: #9C9C9C;
+                    white-space: nowrap;
+                }
             }
             .image {
                 width: 311px;
@@ -164,7 +173,6 @@
         }
     
         .texts {
-            flex-direction: column;
             margin: 30px 0 24px 0;
             width: 80%;
 
@@ -183,9 +191,6 @@
             }
 
             .explanation {
-                color: #000;
-                font-size: 16px;
-                position: relative;
                 -webkit-line-clamp: 1;
             }          
         }
@@ -197,8 +202,6 @@
             justify-content: space-between;
 
             .calender {
-                cursor: pointer;
-
                 .buy {
                     width: 147px;
                 }

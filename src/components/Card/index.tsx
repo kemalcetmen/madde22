@@ -2,7 +2,6 @@ import React from 'react'
 import { Event } from '@/types/event'
 import styles from './index.module.scss'
 import Image from 'next/image'
-import Link from 'next/link'
 import colors from '@/datas/colors.js'
 
 type Props = {
@@ -16,9 +15,15 @@ const index = ({ event, changeLikedEvent }: Props) => {
         <div className={styles.cardContainer}>
             <div className={styles.imageBackground}>
                 <div className={styles.date}>
-                    {
-                        event.date.day + ' ' + event.date.month + ' ' + event.date.dayName + ' ' + event.date.hour
-                    }
+                    <span className={styles.day}>
+                        {event.date.day}
+                    </span> &nbsp; 
+                    <span className={styles.month}>
+                        {event.date.month}
+                    </span> &nbsp; 
+                    <span className={styles.hour}>
+                        {event.date.dayName + ' ' + event.date.hour}
+                    </span>
                 </div>
                 <div className={styles.image}>
                     <div className={styles.eventType} style={{ backgroundColor: `${thecolor}` }}>
